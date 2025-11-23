@@ -64,4 +64,5 @@ git commit -m "message"
 git remote add origin http:
 git push -u origin main
 
+mvn archetype:generate DarchetypeGroupId=com.intuit.karate DarchetypeArtifactId=karate-archetype DarchetypeVersion=1.5.0 DgroupId=com.example DartifactId=karate-demo DinteractiveMode=false
 */
