@@ -56,4 +56,12 @@
   </div>
 </body>
 </html>
+
+cd dev_exam
+git init
+git add .
+git commit -m "message"
+git remote add origin http:
+git push -u origin main
+
 */
