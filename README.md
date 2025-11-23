@@ -36,8 +36,7 @@
       border: none;
       font-size: 16px;
       cursor: pointer;
-    }
-  
+    } 
   </style>
 </head>
 <body>
@@ -46,16 +45,12 @@
     <form>
       <label for="name">Full Name</label>
       <input type="text" id="name" name="name" placeholder="Enter your name" required>
-
       <label for="email">Email Address</label>
       <input type="email" id="email" name="email" placeholder="Enter your email" required>
-
       <label for="phone">Phone Number</label>
       <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
-
       <label for="event">Select Event</label>
       <input type="text" id="event" name="event" placeholder="Event name" required>
-
       <button type="submit">Register</button>
     </form>
   </div>
